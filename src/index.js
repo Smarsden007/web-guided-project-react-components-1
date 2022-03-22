@@ -3,7 +3,7 @@ import React from 'react'
 import { render } from 'react-dom'
 //named export
 
-import Playground from "./components/Playground"
+import Playground from "./components/Playground";
 
 /*
 💥💥💥 Rules when DECLARING a React component 💥💥💥
@@ -33,6 +33,7 @@ function App(props) {
       <h1>Welcome to React, {props.track}{props.cohort} rockstars!!</h1>
       <h2> Instructor's Name: {props.instructor}</h2>
       <h3>{props.numStudents} students are happy? {props.happy}</h3>
+      <Playground />
     </div>
   )
 }
